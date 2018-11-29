@@ -77,7 +77,7 @@ export default class ListItemComposition extends Component {
       </MenuList>
         </div>
       </Paper>
-      <Box color="darkGray" height={37}>
+      <Box color="darkGray" height={17}>
           sdsd
       </Box>
     </div>
