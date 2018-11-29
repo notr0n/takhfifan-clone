@@ -6,6 +6,7 @@ import Preview1 from './Preview1.js';
 import LeftBanner from './LeftB.js';
 import Header from './header.js';
 import Offers from './offers.js';
+import Slider0 from './slider.js';
 
 import {Box , Image} from 'gestalt';
 
@@ -19,7 +20,9 @@ class HOME extends Component {
               <div>
                       <SearchFieldExample />
                       <LeftBanner/>
-                      <Preview1/>
+                      <div class="col-md-7 col-lg-7 hidden-sm hidden-xs data1">
+                        <Slider0/>
+                      </div>
                       <div class="col-md-2 col-lg-2 hidden-sm hidden-xs data1">
                         <ListItemComposition />
                       </div>
